@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+<LinearLayout
+    android:layout_width="12dp"
+    android:layout_height="12dp"
+    <!-- Back button -->
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/back" />
+
+    <!-- Menu button -->
+    <ImageView
+        android:id="@+id/menu_button"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/menu" />
+
+    <!-- App icon -->
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/Logo" />
+
+    <!-- Registration successful text -->
+    <TextView
+        android:id="@+id/registration_successful"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Registration Successful!"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Redirection text -->
+    <TextView
+        android:id="@+id/redirection_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registration_successful"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="You will be redirected to the landing page in 5 seconds..."
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- Checkmark icon -->
+    <ImageView
+        android:id="@+id/checkmark_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/redirection_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/checkbox" />
+
+    <!-- Redirection link -->
+    <TextView
+        android:id="@+id/redirection_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkmark_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Click here if you are not redirected automatically"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp" />
+
+    <!-- Help center link -->
+    <TextView
+        android:id="@+id/help_center_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="Need help? Visit our help center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="14sp" />
+/>
+</RelativeLayout>
