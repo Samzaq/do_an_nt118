@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SignupActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="30dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"
+        android:paddingTop="8dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:inputType="text"
+        android:paddingTop="8dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Moblie Number"
+        android:inputType="text"
+        android:paddingTop="8dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="text"
+        android:paddingTop="8dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confỉrm Password"
+        android:inputType="text"
+        android:paddingTop="8dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnregis"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Next"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:text="Already an user? Login"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textStyle="bold" />
+</LinearLayout>

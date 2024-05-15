@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "434814184102",
+    "firebase_url": "https://desperate-9d42a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "desperate-9d42a",
+    "storage_bucket": "desperate-9d42a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434814184102:android:894360c069bd5c5a616267",
+        "android_client_info": {
+          "package_name": "com.example.desperate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChCh1MSRcmDTfrMPxsV_AW3lPgVU2py4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
